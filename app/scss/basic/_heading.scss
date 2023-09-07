@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+.heading_h1{
+    color: #000;
+    font-family: Oswald;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66px; /* 117.857% */
+    text-transform: uppercase;
+
+    @include respond-to(medium){
+        text-align: center;
+    }
+}

@@ -1,0 +1,163 @@
+@import 'mixins';
+
+
+// first section
+.one{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    
+    .left-text-block{
+        max-width: 500px;
+
+        @include respond-to(medium){
+            max-width: 100%;
+        }
+        
+        .descrip{
+            color: #000;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; /* 162.5% */
+        }
+    }
+   
+
+    .quote{
+        display: flex;
+        @include respond-to(medium){
+            flex-direction: row;
+            justify-content: center;
+        }
+        .avatar{
+
+        }
+
+        .name_user{
+            color: #000;
+            font-family: Oswald;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 155.556% */
+            text-transform: uppercase;
+        }
+
+        .star-list {
+            display: flex; 
+            align-items: center; 
+            gap: 5px; 
+            
+            .star {
+                width: 20px;
+                height: 20px;
+                background: url('../../images/star_rating.png') no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+
+    .right-img-block{
+      
+
+        img{
+            @include respond-to(small){
+                width: 100%;
+            }
+            @include respond-to(medium){
+                width: 100%;
+            }
+        }
+
+    }
+    
+}
+// first section 
+
+
+
+
+// --------------------------------
+
+
+
+// second section
+.event{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .blue_cap{
+        color: #0057FF;
+        text-align: center;
+        font-family: Oswald;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; /* 200% */
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+    }
+
+    .heading_h2{
+        color: #000;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        text-align: center;
+        font-family: Oswald;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 48px; /* 120% */
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .event_description{
+        color: #000;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+    }
+    .tablet_block{
+       img{
+        @include respond-to(small){
+            width: 100%;
+        }
+        @include respond-to(medium){
+            width: 100%;
+        }
+       }
+    }
+    .more_btn{
+        margin-top: 40px;
+        button{
+            text-transform: uppercase;
+            background: transparent;
+            border: 0px solid;
+            text-align: center;
+            font-family: Oswald;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; /* 185.714% */
+            text-transform: uppercase;
+        }
+    }
+}
+// second section
+
+
+
+// --------------------------------
