@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -53,4 +55,64 @@
 .navbar-nav .nav-item.active {
     background-color: #007bff;
     color: #fff;
+}
+
+header{
+    background: rgba(242, 206, 218, 0.3);
+}
+
+.welcome_section{
+    background: rgba(242, 206, 218, 0.3);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.welcome_section  .small_text{
+    color: #0F0101;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.4px; 
+}
+
+
+.welcome_section .heading_h1{
+    color: #0F0101;
+    font-family: Fredoka;
+    font-size: 57.33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120.5%; 
+}
+
+.welcome_section .text_description{
+    margin-top: 30px;
+    color: #0F0101;
+    font-family: Hind Madurai;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    opacity: 0.6;
+    max-width: 520px;
+}
+
+
+.welcome_section .btn_classic{
+    color: #FAFAFA;
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 14px 50px;
+    border: none;
+    border-radius: 5px;
+    background: #D23166;
+}
+
+.welcome_section .btn_sub{
+    margin-top: 30px;
 }
