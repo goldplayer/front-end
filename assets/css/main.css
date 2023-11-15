@@ -116,3 +116,17 @@ header{
 .welcome_section .btn_sub{
     margin-top: 30px;
 }
+
+.coctail_img {
+    position: relative;
+    overflow: hidden;
+}
+
+.img_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* чтобы картинка занимала всю доступную ширину блока */
+    height: 100%; /* чтобы картинка занимала всю доступную высоту блока */
+    object-fit: cover; /* чтобы изображение заполняло блок без искажений */
+}
