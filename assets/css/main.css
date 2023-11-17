@@ -141,4 +141,37 @@ header{
     border-radius: 7px;
     background: #FFF;
     box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.03);
+    padding: 25px 25px;
+    text-align: center;
+}
+
+.delivery .icon_box .icon_box_image{
+    margin-bottom: 20px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.delivery .icon_box .icon_box_image img{
+    width: 32px;
+    height: 32px;
+}
+
+.delivery .icon_box .icon_box_heading h3{
+    color: #000;
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.delivery .icon_box .icon_box_description p{
+    color: #000;
+    text-align: center;
+    font-family: Hind Madurai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
