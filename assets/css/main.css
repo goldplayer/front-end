@@ -50,9 +50,13 @@ header {
 .logo-text {
   font-size: 28px;
 }
-
+.avatar {
+  max-width: 550px;
+  margin: auto;
+}
 .img_avatar {
   border-radius: 50%;
+  width: 100%;
 }
 .about_me {
   padding-top: 120px;
