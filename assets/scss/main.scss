@@ -1,13 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 * {
   box-shadow: 0;
 }
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+$font-family: "Roboto Mono", monospace;
+$transition-duration: 0.33s;
 
 * {
   outline: 0;
   box-sizing: border-box;
   color: #000;
-  font-family: "Roboto Mono", monospace;
+  font-family: $font-family;
   font-optical-sizing: auto;
   font-style: normal;
   padding: 0;
@@ -29,10 +32,11 @@ header {
   display: flex;
   list-style: none;
   justify-content: center;
-}
-.menu_list .menu_item {
-  margin: 0 10px;
-  font-size: 18px;
+
+  .menu_item {
+    margin: 0 10px;
+    font-size: 18px;
+  }
 }
 
 .subscribe {
@@ -40,11 +44,12 @@ header {
   border: 1px solid transparent;
   padding: 10px;
   border-radius: 10px;
-  transition: 0.33s all ease;
-}
-.subscribe:hover {
-  border: 1px solid #000;
-  border-radius: 33px;
+  transition: $transition-duration all ease;
+
+  &:hover {
+    border: 1px solid #000;
+    border-radius: 33px;
+  }
 }
 
 .logo-text {
@@ -54,16 +59,19 @@ header {
 .avatar {
   max-width: 550px;
   margin: auto;
-}
-.avatar .img_avatar {
-  border-radius: 50%;
-  width: 100%;
+
+  .img_avatar {
+    border-radius: 50%;
+    width: 100%;
+  }
 }
 
 .about_me {
   padding: 120px 0;
 }
 
-.test_class .test {
-  margin: 0px;
+.test_class {
+  .test {
+    margin: 0px;
+  }
 }
